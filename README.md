@@ -2,7 +2,7 @@
 
 Десктопное приложение для автоматизации учёта товаров, продаж и клиентов в розничном книжном магазине.
 
---- Стек технологий
+## Стек технологий
 
 - C# (.NET Framework 4.7.2)
 - Windows Forms
@@ -10,7 +10,7 @@
 - ADO.NET
 - EPPlus (экспорт отчётов в Excel)
 
---- Функционал
+## Функционал
 
 - Авторизация с разграничением прав доступа (администратор, продавец, бухгалтер)
 - Ведение справочников: книги, авторы, издательства, клиенты, поставщики, сотрудники
@@ -22,32 +22,32 @@
 - Экспорт отчётов в Excel и печать
 - Журналирование входа пользователей (аудит)
 
---- Структура проекта
+## Структура проекта
 
 BookStore/
-- AddBookForm.cs — добавление книги
-- AddOrderForm.cs — оформление заказа
-- ClientForm.cs — управление клиентами
-- ConfirmSupplyForm.cs — подтверждение поставок
-- DatabaseHelper.cs — работа с базой данных
-- EditBookForm.cs — редактирование книги
-- EmailHelper.cs — отправка email
-- ExportHelper.cs — экспорт в Excel
-- Form1.cs — авторизация
-- MainForm.cs — главное окно
-- ReportsForm.cs — отчёты
-- SupplierForm.cs — управление поставщиками
-- SupplyForm.cs — приход товара
-- App.config — конфигурация
+ AddBookForm.cs — добавление книги
+ AddOrderForm.cs — оформление заказа
+ ClientForm.cs — управление клиентами
+ ConfirmSupplyForm.cs — подтверждение поставок
+ DatabaseHelper.cs — работа с базой данных
+ EditBookForm.cs — редактирование книги
+ EmailHelper.cs — отправка email
+ ExportHelper.cs — экспорт в Excel
+ Form1.cs — авторизация
+ MainForm.cs — главное окно
+ ReportsForm.cs — отчёты
+ SupplierForm.cs — управление поставщиками
+ SupplyForm.cs — приход товара
+ App.config — конфигурация
 
 ## Как запустить
 
 1. Требования
 
-- Windows 7/10/11
-- .NET Framework 4.7.2
-- Microsoft SQL Server Express или выше
-- Visual Studio 2022 для сборки
+Windows 7/10/11
+.NET Framework 4.7.2
+Microsoft SQL Server Express или выше
+Visual Studio 2022 для сборки
 
 2. Восстановление базы данных
 
