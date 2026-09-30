@@ -59,7 +59,7 @@ BookStore/
 
 Откротей файл "App.config" и проверьте строку подключения:
 
-
+```xml
 <connectionStrings>
     <add name="BookStoreDB" 
          connectionString="Data Source=.\SQLEXPRESS;Initial Catalog=BookStore;Integrated Security=True" />
